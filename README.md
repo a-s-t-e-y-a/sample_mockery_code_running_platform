@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sample Coding Frontend
+
+This is a sample/test frontend for a code running platform, built as a demonstration project. **Note: This is not fully implemented and is intended for testing and development purposes only.**
+
+## Features
+
+- **Code Editor**: Basic code editing interface (partial implementation)
+- **Code Execution**: Simulated code running functionality (mocked)
+- **User Interface**: Modern UI components using shadcn/ui
+- **Responsive Design**: Mobile-friendly layout
+
+## Tech Stack
+
+- **Framework**: Next.js 15
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Icons**: Lucide React
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js 18+
+- pnpm (recommended) or npm/yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/a-s-t-e-y-a/sample_mockery_code_running_platform.git
+   cd sample_mockery_code_running_platform
+   ```
+
+2. Install dependencies:
+   ```bash
+   pnpm install
+   # or
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Run the development server:
+   ```bash
+   pnpm dev
+   # or
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Usage
+
+- Navigate to the main page to access the code editor
+- Write or paste your code in the editor
+- Click "Run" to execute the code (currently simulated)
+- View the output in the results panel
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+├── components/
+│   └── ui/          # shadcn/ui components
+└── lib/
+    └── utils.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This is a sample project for demonstration purposes. Contributions are welcome for educational purposes.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Disclaimer
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This frontend is a work-in-progress and does not represent a complete coding platform. It is intended for testing UI/UX concepts and basic functionality.
